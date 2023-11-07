@@ -204,7 +204,7 @@ export default function Action() {
 
       )
       )}</div>
-      <Footer />
+      
 
 
 
