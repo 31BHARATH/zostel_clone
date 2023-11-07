@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <>
     
-    <nav className="bg-transparent  dark:bg-gray-900 relative dark:border-gray-700 h-20 z-10">
+    <nav className="bg-transparent  dark:bg-gray-900  dark:border-gray-700 h-20 z-20">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-6 p-4">
     <Link to="#" className="flex items-center">
         <img src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.jpg" className="h-12 mr-3" alt="Flowbite Logo" />
@@ -121,7 +121,7 @@ export default function Navbar() {
         <li>
           <Link to='/blogs' className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent md:relative font-[CircularStd,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif]">Blog</Link>
         </li>
-        <div className='h-[40px] w-[120px] border-[1px] border-orange-500 rounded-lg absolute right-[5%] top-[28%] flex p-[5px] justify-center'><button>
+        <div className='h-[40px] w-[120px] border-[1px] border-orange-500 rounded-lg absolute right-[5%] top-[4.2%] flex p-[5px] justify-center'><button>
         Merchandise
         </button>
 </div>
