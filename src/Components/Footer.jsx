@@ -8,7 +8,7 @@ export default function Footer() {
         <img src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.jpg" className="h-12 mr-3 " alt="Flowbite Logo" />
         <span className="self-center ml-2 text-2xl tracking-[16px] font-extrabold whitespace-nowrap text-white font-[CircularStd,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif]">ZOSTEL</span>
         </div>
-        <div className='tracking-wide  text-gray-100 w-[332px] ml-12 my-[-25px]'> <p>The website ends here, but your journey to the remotest destinations in India and Nepal begins with Zostel. Explore with our social hostels, homestays, and luxury stays on your next holiday.</p></div>
+        <div className='tracking-wide  text-gray-100 w-[332px] ml-12 my-[-25px]'> <p className='text-gray-100'>The website ends here, but your journey to the remotest destinations in India and Nepal begins with Zostel. Explore with our social hostels, homestays, and luxury stays on your next holiday.</p></div>
         </div>
 
         <div className='m-12'>

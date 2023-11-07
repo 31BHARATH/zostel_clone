@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <>
     
-    <nav className="bg-white border dark:bg-gray-900 dark:border-gray-700 h-20">
+    <nav className="bg-transparent  dark:bg-gray-900 relative dark:border-gray-700 h-20 z-10">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-6 p-4">
     <Link to="#" className="flex items-center">
         <img src="https://s3.ap-south-1.amazonaws.com/zo-static/website/img/zostel-logo.jpg" className="h-12 mr-3" alt="Flowbite Logo" />
@@ -19,7 +19,7 @@ export default function Navbar() {
     </button>
     <div className='pt-[10px]'>
     <div className="flex flex-col w-full md:block md:w-[900px]" id="navbar-multi-level">
-      <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
           <Link to={'/destinations'} className="relative block  font-semibold text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-[CircularStd,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif] ">Destinations</Link>
         </li>
@@ -54,7 +54,7 @@ export default function Navbar() {
   <div id="dropdownNavbar2" className="z-10 hidden font-normal bg-gray-800 divide-y divide-gray-100 rounded-lg shadow w-62 dark:bg-gray-700 dark:divide-gray-600">
                 <ul className="py-2 text-[17px] text-gray-100 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                   <li>
-                    <Link to="#" className="block px-4 py-2 hover:text-orange-500 dark:hover:bg-gray-600 dark:hover:text-white">Zostel Homes Bhor</Link>
+                    <Link to="/zostel-homes" className="block px-4 py-2 hover:text-orange-500 dark:hover:bg-gray-600 dark:hover:text-white">Zostel Homes Bhor</Link>
                   </li>
                   <li>
                     <Link to="#" className="block px-4 py-2 hover:text-orange-500 dark:hover:bg-gray-600 dark:hover:text-white">Zostel Homes Cheog</Link>
@@ -119,11 +119,13 @@ export default function Navbar() {
         </li>
         
         <li>
-          <Link to='#' className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent md:relative font-[CircularStd,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif]">Blog</Link>
+          <Link to='/blogs' className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-500 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent md:relative font-[CircularStd,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif]">Blog</Link>
         </li>
-        <button>
-        <div className='h-[40px] w-[120px] border-[1px] border-orange-500 rounded-lg absolute right-[5%] top-[4.5%] flex p-[5px] justify-center'>
-Merchandise</div></button>
+        <div className='h-[40px] w-[120px] border-[1px] border-orange-500 rounded-lg absolute right-[5%] top-[28%] flex p-[5px] justify-center'><button>
+        Merchandise
+        </button>
+</div>
+        
        
       </ul>
     </div>

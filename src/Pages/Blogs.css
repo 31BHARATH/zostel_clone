@@ -1,0 +1,177 @@
+
+.image-container {
+    background-image: url('../Resources/Big\ Image.jpg');
+    background-size: cover;
+}
+
+
+
+.side-time {
+    height: 50px;
+    width: 120px;
+}
+
+.card-container {
+    /* background-color: red; */
+    height: auto;
+    width: 85vw;
+    margin-left: 10px;
+    margin-top: 60px;
+    display: grid;
+    row-gap: 30px;
+    column-gap: 1px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-item {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 390px;
+    width: 422px;
+    transition: transform 0.5s;
+    box-shadow: .1px .1px 5px rgb(185, 179, 179);
+}
+
+.card-item:hover {
+    transform: scale(1.1);
+}
+
+.card1 {
+    box-shadow: .1px .1px 5px rgb(185, 179, 179);
+}
+
+.img1 {
+    height: 250px;
+    width: 423px;
+    border-radius: 10px;
+}
+
+
+
+.about {
+    padding-left: 12px;
+    padding-top: 3px;
+}
+
+
+
+.foot {
+    display: flex;
+}
+
+.img2 {
+    height: 25px;
+}
+
+
+
+.about-foot {
+    color: rgba(0, 0, 0, 0.655);
+    font-weight: 600;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+.foot-container {
+    height: 400px;
+    width: 90%;
+    background-color: rgba(45,55,72);
+    margin-top: 40px;
+    display: flex;
+    padding-left: 100px;
+}
+
+.foot-item {
+    height: 350px;
+    width: 27%;
+    /* border: 2px white solid; */
+    margin-top: 60px;
+}
+
+.foot1 {
+    height: 350px;
+    width: 27%;
+}
+
+.foot-zostel {
+    height: 80px;
+    width: 100%;
+    /* border: 2px red solid; */
+}
+
+.foot-img1 {
+    margin-right: 20px;
+    height: 80px;
+}
+
+.foot-para1 {
+    color: white;
+    margin-left: 30px;
+    /* word-spacing: 3px; */
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.foot2 {
+    height: 350px;
+    width: 40%;
+    margin-left: 18px;
+    /* border: 2px blue solid; */
+}
+
+.useful-links {
+    height: 40px;
+    width: 100%;
+    /* border: 2px red solid; */
+    color: white;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.dflex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot2-links1 {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 30%;
+}
+
+.foot2-links2 {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 30%;
+}
+
+.link-href {
+    text-decoration: none;
+}
+
+.link-href:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.foot2-links3 {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 30%;
+}
+
+.about-links {
+    color: white;
+    line-height: 35px;
+}
+
+a {
+    text-decoration: none;
+}
+

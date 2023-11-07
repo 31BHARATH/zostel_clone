@@ -352,3 +352,26 @@ export const action = [
     
     
   ]
+
+ export const franchise = [
+    {
+        title1: 'Start A',
+        title2: 'Zostel Franchise',
+        text:` Open and manage a successful business with Zostel.`
+      },
+      {
+        title1: 'Read Our ',
+        title2: 'Case Studies',
+        text:` Get to know our existing ZOstel and franchise owners.`
+      },
+      {
+        title1: 'Use Our Franchise',
+        title2: 'Calculator',
+        text:` Estimate your dream business potential revenue.`
+      },
+      {
+        title1: 'List Property For ',
+        title2: ' Leasing',
+        text:` Let potential renters find your property to run a leased franchise.`
+      },
+ ] 

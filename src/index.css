@@ -27,3 +27,11 @@ code {
 }
 
 
+.swiper-button-prev,.swiper-button-next{
+  --swiper-navigation-size : 18px !important;
+  color: orange !important;
+  background-color: rgba(253, 201, 105, 0.342) !important;
+  border-radius: 50% !important;
+  height: 24px !important;
+  width: 24px !important;
+}

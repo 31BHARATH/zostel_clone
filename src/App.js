@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar'
 import Franchise from './Pages/Franchise'
 import Footer from './Components/Footer'
 import ZostelHomes from './Pages/ZostelHomes'
+import Blogs from './Pages/Blogs'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Route path='/destinations' element={<Destination />}/>
       <Route path='/franchise'  element={<Franchise />}/>
       <Route path='/zostel-homes' element={<ZostelHomes/>}/>
+      <Route path='/blogs' element={<Blogs />}/>
     </Routes>
     <Footer />
     </BrowserRouter>
